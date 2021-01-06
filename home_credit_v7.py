@@ -834,19 +834,3 @@ if __name__ == "__main__":
 # df['SK_ID_CURR'] = df['SK_ID_CURR;TARGET'].apply(lambda x:  x.split(';')[0])
 # df['TARGET'] = df['SK_ID_CURR;TARGET'].apply(lambda x:  x.split(';')[1])
 
-# Fold 1 - 1st Valid's auc's
-# 487 columns - valid_1's auc: 0.780799
-# 406 columns - valid_1's auc: 0.779411
-# 324 columns - valid_1's auc: 0.780142
-# 245 COLUMNS - valid_1's auc: 0.77977
-# 224 columns - valid_1's auc: 0.780529
-# 220 columns - valid_1's auc: 0.779357
-# 217 columns - valid_1's auc: 0.780664 - 0.790763
-# 216 columns - valid_1's auc: 0.779838
-# 214 columns - valid_1's auc: 0.779839
-# 210 columns - valid_1's auc: 0.779928
-# 197 columns - valid_1's auc: 0.779854
-# 149 columns - valid_1's auc: 0.779464
-# 132 columns - valid_1's auc: 0.779376
-# 108 columns - valid_1's auc: 0.776626
-# 66  columns - valid_1's auc: 0.77116
