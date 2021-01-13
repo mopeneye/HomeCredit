@@ -1,0 +1,49 @@
+76.6477
+
+n_threads 6 - 6477 8  aynı
+n_estimators 5000 - 6477 8000 aynı
+learning_rate 0.01 - 5637 0.05 7655 0.03 8006
+num_leaves 50 aynı
+colsample_bytree 0.5 - 8003 0.75 7051
+subsample 0.1 - aynı 0.3 aynı 0.5 aynı 0.8 aynı
+max_depth 6 6837 10 12 
+reg_alpha 0.01 - 0.7672 0.05 0.7680
+reg_lambda 0.05 - 0.7666 0.06 0.7668 0.07 0.7674
+min_split_gain 0.1 - 0.767622
+min_child_weight 60 0.766706 50 0.767196 40 0.767206 
+
+Full AUC score 0.790484 (not debug)
+Full AUC score 0.790530 (not debug)
+Full AUC score 0.767619 (debug)
+
+üçünün çarpımı - Full AUC score 0.768998 -- Full AUC score 0.790498
+ikili çarpımları - Full AUC score 0.76910 -- Full AUC score 0.790485 ...???
+ikili oranları - Full AUC score 0.767499 -- Full AUC score 0.790564
+üçü beraber - Full AUC score 0.767792 -- Full AUC score 0.790445
+
+smote
+https://stackoverflow.com/questions/57456475/using-smote-with-nan-values
+https://medium.com/coinmonks/smote-and-adasyn-handling-imbalanced-data-set-34f5223e167
+
+after drop columns
+with new features ???
+without new features ???
+ 
+Fold 1 - 1st Valid's auc's
+487 columns - valid_1's auc: 0.780799
+406 columns - valid_1's auc: 0.779411
+324 columns - valid_1's auc: 0.780142
+245 COLUMNS - valid_1's auc: 0.77977
+224 columns - valid_1's auc: 0.780529
+220 columns - valid_1's auc: 0.779357
+217 columns - valid_1's auc: 0.780664 - ... AUC : 0.790763
+Full AUC score 0.790763
+216 columns - valid_1's auc: 0.779838
+214 columns - valid_1's auc: 0.779839
+210 columns - valid_1's auc: 0.779928	
+197 columns - valid_1's auc: 0.779854
+149 columns - valid_1's auc: 0.779464
+132 columns - valid_1's auc: 0.779376
+108 columns - valid_1's auc: 0.776626
+66  columns - valid_1's auc: 0.77116
+
